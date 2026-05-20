@@ -11,5 +11,5 @@ app.get("/", (req, res) => {
     res.send("Backend Working");
 });
 
-app.use("/auth", authRoute);
+app.use("/api/auth", authRoute);
 module.exports = app;
